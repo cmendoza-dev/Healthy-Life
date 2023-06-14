@@ -12,16 +12,16 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"/>
-
-
-        <activity android:name=".SplashActivity"
+            android:name=".MainActivityhomeos"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -29,13 +29,13 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".login.LoginActivity" />
         <activity android:name=".home.HomeActivity" />
-        <activity android:name=".AccountActivity"/>
-        <activity android:name=".DatingHistoryActivity"/>
-        <activity android:name=".RecetasMedicasActivity"/>
-        <activity android:name=".GenerateDateActivity"/>
-        <activity android:name=".ResetPasswordActivity"/>
-        <activity android:name=".NewPasswordActivity"/>
-        <activity android:name=".ContextMessageActivity"/>
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".DatingHistoryActivity" />
+        <activity android:name=".RecetasMedicasActivity" />
+        <activity android:name=".GenerateDateActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".NewPasswordActivity" />
+        <activity android:name=".ContextMessageActivity" />
     </application>
 
 </manifest>
